@@ -76,8 +76,39 @@ for _, lead in df_leads.iterrows():
 
 df_transactions = pd.DataFrame(transactions)
 
+# =========================
+# Simulation des objectifs commerciaux
+# =========================
+
+objectives = []
+
+for _, advisor in df_advisors.iterrows():
+    tenure_years = (datetime(2025, 1, 1) - pd.to_datetime(advisor["hire_date"])).days / 365
+
+    # objectif de base selon ancienneté
+    if tenure_years < 1:
+        base_target = 1_500_000
+    elif tenure_years < 3:
+        base_target = 3_000_000
+    else:
+        base_target = 5_000_000
+
+    for month in range(1, 13):
+        objectives.append({
+            "advisor_id": advisor["advisor_id"],
+            "month": f"2025-{month:02d}",
+            "target_premium_fcfa": int(
+                np.random.normal(base_target, base_target * 0.15)
+            )
+        })
+
+df_objectives = pd.DataFrame(objectives)
+
+
 # Sauvegarde des datasets
 df_advisors.to_csv(DATA_PATH / "advisors.csv", index=False)
 df_products.to_csv(DATA_PATH / "products.csv", index=False)
 df_leads.to_csv(DATA_PATH / "leads.csv", index=False)
 df_transactions.to_csv(DATA_PATH / "transactions.csv", index=False)
+df_objectives.to_csv(DATA_PATH / "objectives.csv", index=False)
+
