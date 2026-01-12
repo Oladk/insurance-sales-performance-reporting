@@ -54,6 +54,7 @@ for i in range(n_leads):
         "lead_id": f"L{i+1:05d}",
         "created_at": created_at,
         "advisor_id": random.choice(df_advisors["advisor_id"]),
+        "product_id": np.random.choice(df_products["product_id"]),
         "lead_source": random.choice(["terrain", "recommendation", "enterprise", "campaign"]),
         "lead_status": "contacted" if contacted else "new"
     })
