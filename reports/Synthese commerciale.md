@@ -18,7 +18,7 @@ L’objectif est d’identifier les leviers d’amélioration opérationnels et 
 
 ### Lecture managériale
 
-👉 Le potentiel d’amélioration se situe davantage dans l’optimisation de l’existant que dans l’augmentation brute des leads.
+Le potentiel d’amélioration se situe davantage dans l’optimisation de l’existant que dans l’augmentation brute des leads.
 
 ## 3. Performance des conseillers
 ### Constats
