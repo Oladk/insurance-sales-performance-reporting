@@ -126,11 +126,16 @@ project-root/
 │       └── objectives.csv
 │
 ├── src/
-│   └── data_simulation.py        # Générateur de données (v2)
+│   ├── data_simulation_v2.py        # Générateur de données (v2)
+├   └── data_simulation.py 
 │
 ├── notebooks/
 │   ├── 01_sales_performance_eda.ipynb   # EDA (6 analyses)
-│   └── 02_predictive_modeling.ipynb     # Lead Scoring ML
+│   ├── 02_predictive_modeling.ipynb     # Lead Scoring ML
+│   └── 03_advanced_modeling.ipynb       # XGBoost + SHAP
+│
+├── reports/
+│   └── Synthese_commerciale.md
 │
 └── README.md
 ```
@@ -164,7 +169,7 @@ project-root/
 
 ## 8. Outils & Stack
 
-- **Python 3.10** — pandas, numpy, scikit-learn, matplotlib, seaborn
+- **Python 3.14.2** — pandas, numpy, scikit-learn, matplotlib, seaborn
 - **Jupyter Notebooks** — analyse et modélisation
 - **CSV** — format de stockage (extensible vers SQL/Parquet)
 
