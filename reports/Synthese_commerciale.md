@@ -137,4 +137,4 @@ Le modèle de scoring (AUC-ROC = 0.761, vs 0.500 pour une prédiction aléatoire
 
 ---
 
-*Analyse réalisée avec Python (pandas, scikit-learn). Données synthétiques basées sur hypothèses métier documentées. Reproduire les chiffres : exécuter `data_simulation.py` puis les deux notebooks dans l'ordre.*
+*Analyse réalisée avec Python (pandas, scikit-learn). Données synthétiques basées sur hypothèses métier documentées. Reproduire les chiffres : exécuter `data_simulation_v2.py` puis les deux notebooks dans l'ordre.*
