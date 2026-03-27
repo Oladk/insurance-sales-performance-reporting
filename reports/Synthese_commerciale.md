@@ -131,12 +131,9 @@ Le modèle de scoring (AUC-ROC = 0.761, vs 0.500 pour une prédiction aléatoire
 3. **Suivi mensuel Objectifs vs Réalisé** par conseiller et par région
 
 ### Moyen terme (3–12 mois)
-4. **Programme de mentorat Junior** (cible : +[XX] pts de conversion)
+4. **Programme de mentorat Junior** 
 5. **Formation produits Mixte** pour les conseillers à fort volume / faible valeur
 6. **Rééquilibrage territorial** des ressources vers les régions à forte prime par lead
-
-### Impact financier estimé
-Cumulé sur 12 mois, les recommandations #1, #2 et #5 représentent un potentiel de **+[XX]% de CA** sans augmentation du volume de leads.
 
 ---
 
