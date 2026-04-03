@@ -1,6 +1,6 @@
-# Insurance Sales Performance Reporting — Synthetic Data Project
+# Insurance Sales Performance Reporting: Synthetic Data Project
 
-> **Version 2.0** — Pipeline corrigé, 5 tables générées, cohérence simulation ↔ ML garantie.
+> **Version 2.0** : Pipeline corrigé, 5 tables générées, cohérence simulation ↔ ML garantie.
 
 ---
 
@@ -169,9 +169,9 @@ project-root/
 
 ## 8. Outils & Stack
 
-- **Python 3.14.2** — pandas, numpy, scikit-learn, matplotlib, seaborn
-- **Jupyter Notebooks** — analyse et modélisation
-- **CSV** — format de stockage (extensible vers SQL/Parquet)
+- **Python 3.14.2** : pandas, numpy, scikit-learn, matplotlib, seaborn
+- **Jupyter Notebooks** ! analyse et modélisation
+- **CSV** : format de stockage (extensible vers SQL/Parquet)
 
 ---
 
