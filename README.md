@@ -40,7 +40,7 @@ Toutes les données sont **simulées**, mais reposent sur des **hypothèses mét
 | Taux de leads contactés | ~72% |
 | Taux de conversion moyen | ~18% (variable par canal, région, ancienneté) |
 
-**Logique de conversion (v2 — corrigée) :**
+**Logique de conversion (v2 corrigée) :**
 La probabilité de conversion est une **fonction déterministe des features observables** :
 ```
 p_convert = base_channel_rate + region_bonus + seniority_bonus + premium_bonus + ε
