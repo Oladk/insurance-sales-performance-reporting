@@ -179,6 +179,6 @@ project-root/
 
 | Notebook | Statut |
 |----------|--------|
-| `data_simulation.py` | ✅ v2 — 5 tables, cohérence ML garantie |
-| `01_sales_performance_eda.ipynb` | ✅ v2 — 6 analyses, visualisations pro |
-| `02_predictive_modeling.ipynb` | ✅ v2 — Pipeline complet, AUC > baseline |
+| `data_simulation.py` | ✅ v2 : 5 tables, cohérence ML garantie |
+| `01_sales_performance_eda.ipynb` | ✅ v2 : 6 analyses, visualisations pro |
+| `02_predictive_modeling.ipynb` | ✅ v2 : Pipeline complet, AUC > baseline |
