@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Vue d'ensemble — Chiffres Clés
+## 1. Vue d'ensemble : Chiffres Clés
 
 | KPI | Valeur | Commentaire |
 |-----|--------|-------------|
@@ -22,7 +22,7 @@
 
 ---
 
-## 2. Performance par Canal — Le Funnel de Vente
+## 2. Performance par Canal : Le Funnel de Vente
 
 | Canal | Leads | Taux de conversion | Valeur économique moyenne|
 |-------|-------|-------------------|-----------------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 3. Performance des Conseillers — Analyse Pareto
+## 3. Performance des Conseillers : Analyse Pareto
 
 **Concentration :** 17 conseillers (42% du réseau) génèrent **80% du CA total**.
 
@@ -109,7 +109,7 @@
 
 ---
 
-## 7. Lead Scoring - Application ML
+## 7. Lead Scoring : Application ML
 
 Le modèle de scoring (AUC-ROC = 0.761, vs 0.500 pour une prédiction aléatoire) permet de **prioriser les leads** avant contact :
 
